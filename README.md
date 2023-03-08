@@ -50,7 +50,7 @@ Datasets:
 | CompiledDisinfo_74k<sup>2  </sup>          | 73.900| 75.1MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Disinformation-NLP/blob/master/DATA/CompiledDisinfo_74k/CompiledDisinfo_74k.csv.gz | 
 
 <br>
-<sup>2  </sup> *'CompiledDisinfo_74K' is not a sepearate dataset, but is the compiled version of the above 6 datasets. This can be directly downloaded form the given link).*
+<sup>2  </sup> *'CompiledDisinfo_74K' is not a separately sourced dataset, but is the compiled version of the above 6 datasets. This can be directly downloaded form the given link).*
 
 <br>
 
