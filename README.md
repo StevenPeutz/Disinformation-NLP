@@ -3,9 +3,9 @@ A study comparing the robustness to MT induced noise of NLP based Disinformation
 <br>
 ## About this project
 This study uses a 6 x 7 x 4 design in terms of embeddings, models and testsets. Resulting in 42 NLP architectures, each tested on 4 noise<sup>1</sup> levels.   
-<br>
-This project focusses around [this notebook](https://github.com/StevenPeutz/Masterthesis-Disinformation-NLP/tree/master/CODE) -TODO: replace with link- that runs the 6 x 7 x 4 design in one single environment for easy use and direct comparison. (Unreduced 'embedding dedicated' notebooks can be found in the 'CODE/Unreduced' folder. These notebooks use the full (no PCA reduction) embeddings and full unsampled datasets to obtain the most accuracte results).
 
+This project focusses around [this notebook](https://github.com/StevenPeutz/Masterthesis-Disinformation-NLP/tree/master/CODE) -TODO: replace with link- that runs the 6 x 7 x 4 design in one single environment for easy use and direct comparison. (Unreduced 'embedding dedicated' notebooks can be found in the 'CODE/Unreduced' folder. These notebooks use the full (no PCA reduction) embeddings and full unsampled datasets to obtain the most accuracte results).
+<br>
 **Embeddings:**
 - CountVectorizer (BoW)
 - HashingVector (HV)
@@ -27,7 +27,7 @@ Pretrained Embeddings (<sup>3, 4, 5</sup>):
 <br>
 <br>
 
-**Classification Models**
+**General Purpose Classification Models**
 - Logistic Regression (LR)
 - Naive Bayes (NB)
 - Random Forest (RF)
