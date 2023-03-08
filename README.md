@@ -11,8 +11,8 @@ It is focussed around [this notebook](https://github.com/StevenPeutz/Masterthesi
 - HashingVector (HV)
 - TF-IDF
 - GloVe<sup>3</sup>
-- Word2Vec<sup>4</sup> (w2v)
-- FastText<sup>5</sup> (ft)
+- Word2Vec<sup>4</sup>
+- FastText<sup>5</sup>
 <br>
 Pretrained Embeddings (<sup>3, 4, 5</sup>):
 
