@@ -12,7 +12,19 @@ This study uses a 6 x 7 x 4 design in terms of embeddings, models and testsets. 
 - GloVe<sup>3</sup>
 - Word2Vec<sup>4</sup> (w2v)
 - FastText<sup>5</sup> (ft)
-<br><br>
+<br>
+Pretrained Embeddings (<sup>3, 4, 5</sup>):
+
+
+|                Embedding               | Dims | Size (gzipped) |  Storage   |                                                 Download link                                                 |
+| :------------------------------------|:----:|:--------------:|:----------:|:---------------------------------------------------------------------------------------------------------: |
+|           <sup>3  </sup>GloVe  (50dim version)          | 50   |   66 MB        |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
+|      <sup>4  </sup>FastText - Reduced (PCA from 300)     | 50   |   240 MB       |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
+|     <sup>5  </sup>Word2Vec - Reduced (PCA from 300)       | 50   |   958 MB       |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
+
+
+<br>
+<br>
 
 **Classification Models**
 - Logistic Regression (LR)
@@ -24,7 +36,7 @@ This study uses a 6 x 7 x 4 design in terms of embeddings, models and testsets. 
 - Extreme Gradient Boosting (XGB)   
   
 <br>
-
+<br>
 Datasets:  
 
 | Name                          | Rows   | Size (gzipped) | Storage | Download link (use raw version if directly in notebook)                                                   |
@@ -35,21 +47,13 @@ Datasets:
 | monkeypox                     | 4.000 | 7.8MB          | Github  | https://github.com/StevenPeutz/Masterthesis-Disinformation-NLP/blob/master/DATA/MonkeyPoxMisinfo/monkeypox.csv.gz |
 | Fake                          | 20.000| 23.7MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Disinformation-NLP/blob/master/DATA/UVIC-ISOT/Fake.csv.gz |
 | True                          | 20.000| 18.7MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Disinformation-NLP/blob/master/DATA/UVIC-ISOT/True.csv.gz |
-| CompiledDisinfo_74k<sup>1  </sup>          | 73.900| 75.1MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Disinformation-NLP/blob/master/DATA/CompiledDisinfo_74k/CompiledDisinfo_74k.csv.gz | 
-
-
-<br>
-Embeddings:
-
-
-|                Embedding               | Dims | Size (gzipped) |  Storage   |                                                 Download link                                                 |
-| :------------------------------------|:----:|:--------------:|:----------:|:---------------------------------------------------------------------------------------------------------: |
-|           GloVe  (50dim version)          | 50   |   66 MB        |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
-|      FastText - Reduced (PCA)     | 50   |   240 MB       |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
-|     Word2Vec - Reduced (PCA)       | 50   |   958 MB       |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
-
+| CompiledDisinfo_74k<sup>2  </sup>          | 73.900| 75.1MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Disinformation-NLP/blob/master/DATA/CompiledDisinfo_74k/CompiledDisinfo_74k.csv.gz | 
 
 <br>
+<sup>2  </sup> *'CompiledDisinfo_74K' is not a sepearate dataset, but is the compiled version of the above 6 datasets. This can be directly downloaded form the given link).*
+
+<br>
+
 <br>
 <sup>1  </sup> *Noise levels as introduced by machine backtranslations. 'N0' being the original testset (the version similar to training), 'N1' (1 level of backtranslation (EN -> RU -> EN), continuing to 'N3'.
 For rough assessment of noise in a purely lexical sense, the Jaro-Winkler Distances (normalized) have been calculated and imported before and are imported in this notebook*  
