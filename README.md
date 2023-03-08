@@ -19,9 +19,9 @@ Pretrained Embeddings (<sup>3, 4, 5</sup>):
 
 |                Embedding               | Dims | Size (gzipped) |  Storage   |                                                 Download link                                                 |
 | :------------------------------------|:----:|:--------------:|:----------:|:---------------------------------------------------------------------------------------------------------: |
-|           <sup>3  </sup>GloVe  (50dim version)          | 50   |   66 MB        |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
-|      <sup>4  </sup>FastText - Reduced (PCA from 300)     | 50   |   240 MB       |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
-|     <sup>5  </sup>Word2Vec - Reduced (PCA from 300)       | 50   |   958 MB       |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
+|           <sup>3  </sup>GloVe  (50d version)          | 50   |   66 MB        |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
+|      <sup>4  </sup>FastText - PCA Reduced (300)     | 50   |   240 MB       |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
+|     <sup>5  </sup>Word2Vec - PCA Reduced (300)       | 50   |   958 MB       |   Kaggle   |         https://www.kaggle.com/datasets/stevenpeutz/tinypretrainedembeddings         |
 
 
 <br>
