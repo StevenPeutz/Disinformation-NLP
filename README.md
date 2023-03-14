@@ -2,8 +2,7 @@
 A study comparing the robustness to MT induced noise of NLP based Misinformation Classification architectures (focussing on vectorization methods and  classification algorithm combinations).  
 <br>
 ## About this project
-This study uses a 6 x 7 x 4 design in terms of embeddings, models and test sets. Resulting in 42 NLP architectures, each tested on 4 noise<sup>1</sup> levels.   
-It is focussed around [this notebook](https://github.com/StevenPeutz/Masterthesis-Disinformation-NLP/tree/master/CODE) -TODO: replace with link- that runs the 6 x 7 x 4 design in one single environment for easy use and direct comparison. (Larger 'embedding dedicated' notebooks can be found in the 'xxxx' folder. These notebooks use longer (less reduction) texts and the full unsampled datasets to obtain the most accuracte results if needed).
+This study uses a 6 x 7 x 4 design in terms of embeddings, models and test sets. Resulting in 42 NLP architectures, each tested on 4 noise<sup>1</sup> levels.   It is focussed around [this notebook](https://github.com/StevenPeutz/Masterthesis-Disinformation-NLP/tree/master/CODE) -TODO: replace with link- that runs the 6 x 7 x 4 design in one single environment for easy use and direct comparison. (Larger 'embedding dedicated' notebooks can be found in the 'xxxx' folder. These notebooks use longer (less reduction) texts and the full unsampled datasets to obtain the most accuracte results if needed).
 <br>
 <br>
 **Embeddings:**
