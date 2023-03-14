@@ -37,7 +37,8 @@ Pretrained Embeddings (<sup>3, 4, 5</sup>):
   
 <br>
 <br>
-**Datasets:**  
+
+**Datasets:**   
 
 | Name                          | Rows   | Size (gzipped) | Storage | Download link (use raw version if directly in notebook)                                                   |
 | -----------------------------|-------|----------------|---------| -------------------------------------------------------------------------------------------------------------|
@@ -53,11 +54,13 @@ Pretrained Embeddings (<sup>3, 4, 5</sup>):
 
 
 <br>
+
 <sup>1  </sup> *Noise levels as introduced by machine backtranslations. 'N0' being the original testset (the version similar to training), 'N1' (1 level of backtranslation (EN -> RU -> EN), continuing to 'N3'.
-For rough assessment of noise in a purely lexical sense, the Jaro-Winkler Distances (normalized) have been calculated and imported before and are imported in this notebook*  
+For rough assessment of noise in a purely lexical sense, the Jaro-Winkler Distances (normalized) have been calculated and imported before and are imported in this notebook*   
 <br>
 <br>
-<sup>2  </sup> *'CompiledDisinfo_74K' is not a separately sourced dataset, but is the compiled version of the above 6 datasets. This can be directly downloaded form the given link).*
+
+<sup>2  </sup> *'CompiledDisinfo_74K' is not a separately sourced dataset, but is the compiled version of the above 6 datasets. This can be directly downloaded form the given link).* 
 
 <br>
 <br>
@@ -117,4 +120,5 @@ For rough assessment of noise in a purely lexical sense, the Jaro-Winkler Distan
 
 <br>
 <br>
-*(trained model instances (parameters and weights) can be found as pickled files (.pkl) in the 'PickledModels' folder)*
+
+*(trained model instances (parameters and weights) can be found as pickled files (.pkl) in the 'PickledModels' folder)* 
