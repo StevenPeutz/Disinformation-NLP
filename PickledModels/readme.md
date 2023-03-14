@@ -4,12 +4,12 @@ The pickle library was used to save all the models (parameters and weights) and 
 The files can be directly read using the pickle library (reading them in is done with 'load' and saving them is done with 'dump') as can be seen in the notebooks used here.
 <br>
 Here is the full list of pickled instances of all model embedding combinations pickled and uploaded here. 
-- Logistic Regression (LR) + CountVectorizer (BoW) / HashingVector (HV) / TF-IDF / GloVe3 / Word2Vec / FastText
-- Naive Bayes (NB) + CountVectorizer (BoW) / HashingVector (HV) / TF-IDF / GloVe3 / Word2Vec / FastText
-- Random Forest (RF) + CountVectorizer (BoW) / HashingVector (HV) / TF-IDF / GloVe3 / Word2Vec / FastText
-- Support Vector Machine (SVM) + CountVectorizer (BoW) / HashingVector (HV) / TF-IDF / GloVe3 / Word2Vec / FastText
-- GradientBoosting (GB) + CountVectorizer (BoW) / HashingVector (HV) / TF-IDF / GloVe3 / Word2Vec / FastText
-- Extreme Gradient Boosting (XGB) + CountVectorizer (BoW) / HashingVector (HV) / TF-IDF / GloVe3 / Word2Vec / FastText
+- Logistic Regression (LR)  +  CountVectorizer / HashingVector / TF-IDF / GloVe / Word2Vec / FastText
+- Naive Bayes (NB)  +  CountVectorizer / HashingVector / TF-IDF / GloVe / Word2Vec / FastText
+- Random Forest (RF)  +  CountVectorizer / HashingVector / TF-IDF / GloVe / Word2Vec / FastText
+- Support Vector Machine (SVM)  +  CountVectorizer / HashingVector / TF-IDF / GloVe / Word2Vec / FastText
+- GradientBoosting (GB)  +  CountVectorizer / HashingVector / TF-IDF / GloVe / Word2Vec / FastText
+- Extreme Gradient Boosting (XGB)  +  CountVectorizer / HashingVector / TF-IDF / GloVe / Word2Vec / FastText
 
 <br>
 The K-nearest Neighbours (KNN) model is the only classification algorithm used that does not have a saved (pickled) model file uploaded here. This is because of the size
