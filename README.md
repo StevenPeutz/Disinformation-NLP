@@ -1,4 +1,4 @@
-# Masterthesis-Misinformation-NLP
+# Misinformation-NLP (master thesis Statistics, KUL)
 A study comparing the robustness to MT induced noise of NLP based Misinformation Classification architectures (focussing on vectorization methods and  classification algorithm combinations).  
 <br>
 ## About this project
@@ -42,13 +42,13 @@ Pretrained Embeddings (<sup>3, 4, 5</sup>):
 
 | Name                          | Rows   | Size (gzipped) | Storage | Download link (use raw version if directly in notebook)                                                   |
 | -----------------------------|-------|----------------|---------| -------------------------------------------------------------------------------------------------------------|
-| Chendra - fake_train                    | 20.387| 38.4MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/21k_Chendra/fake_train.csv.gz |
-| Jillani - fake_or_real_news             | 6.060 | 11.9MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/6k_Jillani/fake_or_real_news.csv.gz |
-| EUvsDisinfo - data                          | 6.241 | 4.7MB          | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/EUvsDisinfo.eu/data.csv.gz |
-| Crone - monkeypox                     | 4.000 | 7.8MB          | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/MonkeyPoxMisinfo/monkeypox.csv.gz |
-| UVIC-ISOT - Fake                          | 20.000| 23.7MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/UVIC-ISOT/Fake.csv.gz |
-| UVIC-ISOT - True                          | 20.000| 18.7MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/UVIC-ISOT/True.csv.gz |
-| (CompiledDisinfo_74k<sup>2  </sup>)          | 73.900| 75.1MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/CompiledDisinfo_74k/CompiledDisinfo_74k.csv.gz | 
+| Chendra - fake_train                    | 20.387| 38.4MB         | Github  | https://github.com/StevenPeutz/Misinformation-NLP/blob/master/DATA/21k_Chendra/fake_train.csv.gz |
+| Jillani - fake_or_real_news             | 6.060 | 11.9MB         | Github  | https://github.com/StevenPeutz/Misinformation-NLP/blob/master/DATA/6k_Jillani/fake_or_real_news.csv.gz |
+| EUvsDisinfo - data                          | 6.241 | 4.7MB          | Github  | https://github.com/StevenPeutz/Misinformation-NLP/blob/master/DATA/EUvsDisinfo.eu/data.csv.gz |
+| Crone - monkeypox                     | 4.000 | 7.8MB          | Github  | https://github.com/StevenPeutz/Misinformation-NLP/blob/master/DATA/MonkeyPoxMisinfo/monkeypox.csv.gz |
+| UVIC-ISOT - Fake                          | 20.000| 23.7MB         | Github  | https://github.com/StevenPeutz/Misinformation-NLP/blob/master/DATA/UVIC-ISOT/Fake.csv.gz |
+| UVIC-ISOT - True                          | 20.000| 18.7MB         | Github  | https://github.com/StevenPeutz/Misinformation-NLP/blob/master/DATA/UVIC-ISOT/True.csv.gz |
+| (CompiledDisinfo_74k<sup>2  </sup>)          | 73.900| 75.1MB         | Github  | https://github.com/StevenPeutz/Misinformation-NLP/blob/master/DATA/CompiledDisinfo_74k/CompiledDisinfo_74k.csv.gz | 
 
 <br>
 
