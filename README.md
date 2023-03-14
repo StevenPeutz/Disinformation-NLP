@@ -65,7 +65,7 @@ For rough assessment of noise in a purely lexical sense, the Jaro-Winkler Distan
 
 <br>
 **AUC ROC's can be seen to decrease as MT noise (operationalized as backtranslation levels, as well as by Jaro Winkler Distance (Lexical)) increases.**  
-<br>. 
+<br> 
 
 
 
@@ -113,3 +113,8 @@ For rough assessment of noise in a purely lexical sense, the Jaro-Winkler Distan
 |                        | GloVe                 | .8010   | .7540   | .7490  | .7481    |       
 |                        | Word2Vec (CPA_red)    | .8072   | .7475   | .7418   | .7413   |
 |                        | FastText (CPA_red)    | .8057   | .7526   | .7476   | .7459   |       |
+
+
+<br>
+<br>
+(model instances (parameters and weights) are saved as pickled files (.pkl) in the 'PickledModels' folder)
