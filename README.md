@@ -117,4 +117,4 @@ For rough assessment of noise in a purely lexical sense, the Jaro-Winkler Distan
 
 <br>
 <br>
-*(model instances (parameters and weights) can be found as pickled files (.pkl) in the 'PickledModels' folder)*
+*(trained model instances (parameters and weights) can be found as pickled files (.pkl) in the 'PickledModels' folder)*
