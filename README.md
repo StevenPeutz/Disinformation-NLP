@@ -37,7 +37,7 @@ Pretrained Embeddings (<sup>3, 4, 5</sup>):
   
 <br>
 <br>
-Datasets:  
+**Datasets:**  
 
 | Name                          | Rows   | Size (gzipped) | Storage | Download link (use raw version if directly in notebook)                                                   |
 | -----------------------------|-------|----------------|---------| -------------------------------------------------------------------------------------------------------------|
@@ -47,7 +47,7 @@ Datasets:
 | Crone - monkeypox                     | 4.000 | 7.8MB          | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/MonkeyPoxMisinfo/monkeypox.csv.gz |
 | UVIC-ISOT - Fake                          | 20.000| 23.7MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/UVIC-ISOT/Fake.csv.gz |
 | UVIC-ISOT - True                          | 20.000| 18.7MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/UVIC-ISOT/True.csv.gz |
-| CompiledDisinfo_74k<sup>2  </sup>          | 73.900| 75.1MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/CompiledDisinfo_74k/CompiledDisinfo_74k.csv.gz | 
+| (CompiledDisinfo_74k<sup>2  </sup>)          | 73.900| 75.1MB         | Github  | https://github.com/StevenPeutz/Masterthesis-Misinformation-NLP/blob/master/DATA/CompiledDisinfo_74k/CompiledDisinfo_74k.csv.gz | 
 
 <br>
 
