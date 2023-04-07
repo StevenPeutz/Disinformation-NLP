@@ -18,7 +18,6 @@ xgboost==1.7.5
 
 
 
-
 #The full imports as written within the notebook:
 
 import pandas as pd
@@ -33,7 +32,6 @@ from sklearn.feature_extraction.text import TfidfTransformer
 from sklearn.preprocessing import MaxAbsScaler
 from keras.preprocessing.text import Tokenizer
 from keras.utils import pad_sequences
-
 
 #pickle:
 from pickle import dump, load
@@ -50,7 +48,6 @@ from xgboost import XGBClassifier
 
 #evaluation
 from sklearn.metrics import roc_auc_score
-
 
 #system:
 import gc
