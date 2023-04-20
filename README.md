@@ -3,7 +3,8 @@ A study comparing the robustness to MT induced noise of NLP based Disinformation
 <br>
 ## About this project
 This study uses a 6 x 7 x 4 design in terms of embeddings, models and test sets. Resulting in 42 NLP architectures, each tested on 4 noise<sup>1</sup> levels.   It is focussed around the ['MAIN'](https://github.com/StevenPeutz/Disinformation-NLP/blob/master/MAIN.ipynb) notebook. <br>
-(Larger 'embedding dedicated' notebooks can be found in the 'xxxx' folder. These notebooks use longer (less reduction) texts and the full unsampled datasets to obtain the most accuracte results if needed).
+(Larger 'embedding dedicated' notebooks can be found in the 'xxxx' folder. These notebooks use longer (less reduction) texts and the full unsampled datasets to obtain the most accuracte results if needed).<br>
+The primary 0 hypothesis was tested and rejectred using simple t-tests as detailed in the accompanying paper, but further statistical analysis related to the secondary hypotheses (Friedman tests with Nemenyi post-hoc tests) can be found [here](https://github.com/StevenPeutz/Disinformation-NLP/blob/master/Friedman%26Nemenyi_posthoc.ipynb).
 <br>
 <br>
 **Embeddings:**
