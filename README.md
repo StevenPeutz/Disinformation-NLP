@@ -1,4 +1,4 @@
-# Disinformation-NLP (master thesis Statistics, KUL)
+# Disinformation-NLP project
 A study comparing the robustness to MT induced noise of NLP based Disinformation Classification architectures (focussing on vectorization methods and  classification algorithms).  
 <br>
 ## About this project
