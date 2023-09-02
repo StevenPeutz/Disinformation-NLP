@@ -1,5 +1,6 @@
 # Disinformation-NLP project
 A study comparing the robustness to MT induced noise of NLP based Disinformation Classification architectures (focussing on vectorization methods and  classification algorithms).  
+An online, reader-friendly, version of this project can be found on [stevenpeutz.com/disinformation](https://stevenpeutz.com/disinformation/)
 <br>
 ## About this project
 This study uses a 6 x 7 x 4 design in terms of embeddings, models and test sets. Resulting in 42 NLP architectures, each tested on 4 noise<sup>1</sup> levels.   It is focussed around the ['MAIN'](https://github.com/StevenPeutz/Disinformation-NLP/blob/master/MAIN.ipynb) notebook. <br>
